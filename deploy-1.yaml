@@ -30,7 +30,7 @@ spec:
         app: deploy-1
     spec:
       containers:
-      - image: aminking/project:development.56
+      - image: nginx
         imagePullPolicy: IfNotPresent
         name: project
         resources: {}
